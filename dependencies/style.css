@@ -1,0 +1,149 @@
+
+.leftPage, .rightPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px solid #00C4A7;
+    border-radius: 20px;
+    text-align: center;
+    height: 80vh;
+    margin-right: 1rem;
+}
+
+.pageTitle{
+    font-size: 2.2rem;
+    font-weight: bold;
+    display: block;
+    color: #f1f1f1;
+    /* text-align: center; */
+    margin-left: 2rem;
+}
+
+.section{
+    margin-top: -50px;
+}
+.about-section{
+    margin-top: 0 !important;
+}
+
+.button-class{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.navTitle{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-menu{
+    background-color: #00C4A7;
+}
+
+#rightPage, #leftPage{
+    border: 5px solid #00C4A7;
+    width: 100%;
+    height: 100%;
+}
+
+.booklistUl{
+    border: 2px solid #00C4A7;
+}
+
+.booklistLi{
+    border: 2px solid #00C4A7;
+}
+
+.border{
+    border: 2px solid #00C4A7;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 52px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .card-equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+ }
+ .card-equal-height .card-footer {
+   margin-top: auto;
+ }
+ .card{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 0.5rem;
+ }
+ .card img{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 0.5rem;
+     max-width: 96.5%;
+     max-height: 96.5%;
+     margin: 0 auto;
+     margin-top: -3.5%;
+ }
+
+
+ .button-class a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  .button-class a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #00C4A7;
+    color: #ddd;
+    margin-right: 5px;
+  }
+  
+  .next {
+    background-color: #00C4A7;
+    color: #ddd;
+    margin-left: 5px;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Books | Last Night</title>
+	<link rel="stylesheet" href="/dependencies/stylesheet.css" type="text/css">
+	<script src="/dependencies/books_index.js" type="application/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+	<header class="container">
+		<a href="/">Last Night</a>
+		<a href=#>FB Page</a>
+		<a href=#>Books</a>
+		<a href=#>About</a>
+	</header>
+	<div class="requestHolder">
+		<table cellspacing="0" border="2">
+			<tr>
+				<td colspan="2"> <button id="fetchBookList" onmousedown="fetchBookList()"> Book List </button> </td>
+			</tr>
+			<tr>
+				<td> <button id="fetchPageList" onmousedown="fetchPageList()"> Pages Info </button> </td>
+				<td> <input id="bookID" type="text" placeholder="Book ID Here"> </td>
+			</tr>
+		</table>
+
+		<h3 id="response">Response From Server : </h3>
+		<h3>Book List :-</h3>
+		<ol id="bookList"></ol>
+	</div>
+</body>
+
+</html>
